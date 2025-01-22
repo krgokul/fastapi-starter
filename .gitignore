@@ -1,0 +1,76 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Virtual environment
+venv/
+.env/
+
+# FastAPI specific
+instance/
+app/static/uploads/  # If you have an uploads folder for user-generated files
+
+# Logs and temporary files
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# VS Code settings
+.vscode/
+
+# MacOS-specific files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# C extensions
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# IDE-specific
+.idea/
