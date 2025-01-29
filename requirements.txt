@@ -1,0 +1,10 @@
+fastapi==0.95.0
+uvicorn==0.22.0
+pydantic==1.10.9
+wheel>=0.38.4
+asyncpg==0.26.0
+sqlalchemy==2.0.18
+psycopg2-binary==2.9.10
+alembic==1.11.0
+googlemaps==4.8.0
+firebase-admin==6.1.0
