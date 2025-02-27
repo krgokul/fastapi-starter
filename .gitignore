@@ -8,7 +8,7 @@ __pycache__/
 # Virtual environment
 venv/
 .env/
-
+env/
 # FastAPI specific
 instance/
 app/static/uploads/  # If you have an uploads folder for user-generated files
